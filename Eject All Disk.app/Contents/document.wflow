@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>509</string>
+	<key>AMApplicationVersion</key>
+	<string>2.10</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.RemoteDesktop.computer-object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Remote Desktop</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict/>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.RemoteDesktop.computer-object</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array>
+					<dict>
+						<key>Display Name</key>
+						<string>Remote Desktop</string>
+						<key>Resource</key>
+						<string>com.apple.RemoteDesktop</string>
+						<key>Type</key>
+						<string>application</string>
+						<key>Version</key>
+						<string>3.0</string>
+					</dict>
+				</array>
+				<key>ActionBundlePath</key>
+				<string>/Applications/Remote Desktop.app/Contents/Library/Automator/Eject All Disks.action</string>
+				<key>ActionName</key>
+				<string>Eject All Disks</string>
+				<key>ActionParameters</key>
+				<dict/>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RemoteDesktop.automator.EjectAllDisks</string>
+				<key>CFBundleVersion</key>
+				<string>1.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>Utility</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMRemoteAction</string>
+				<key>InputUUID</key>
+				<string>79F6B557-060E-432C-97DF-243B1D64BA57</string>
+				<key>Keywords</key>
+				<array>
+					<string>Remove</string>
+					<string>Disk Image</string>
+					<string>Unmount</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>90149D20-D279-45F9-8762-42218AD67208</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Remote Desktop</string>
+				</array>
+				<key>arguments</key>
+				<dict/>
+				<key>isViewVisible</key>
+				<integer>1</integer>
+				<key>location</key>
+				<string>207.000000:68.000000</string>
+				<key>nibPath</key>
+				<string>/Applications/Remote Desktop.app/Contents/Library/Automator/Eject All Disks.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict/>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.application</string>
+	</dict>
+</dict>
+</plist>
